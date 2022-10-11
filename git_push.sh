@@ -44,9 +44,9 @@ if [ "$git_remote" = "" ]; then # git remote not defined
 
 fi
 
-git pull origin develop
+git pull origin add_member_of
 
 # Pushes (Forces) the changes in the local repository up to the remote repository
 echo "Git pushing to https://github.com/${git_user_id}/${git_repo_id}.git"
-git push origin develop 2>&1 | grep -v 'To https'
+git push origin add_member_of 2>&1 | grep -v 'To https'
 
