@@ -1,0 +1,45 @@
+# User
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Id** | **int32** |  | [optional] [default to null]
+**Username** | **string** | A username for the user. | [optional] [default to null]
+**Email** | **string** | A valid email for the user. | [optional] [default to null]
+**Firstname** | **string** | The user&#x27;s first name. | [optional] [default to null]
+**Lastname** | **string** | The user&#x27;s last name. | [optional] [default to null]
+**Title** | **string** | The user&#x27;s job title. | [optional] [default to null]
+**Department** | **string** | The user&#x27;s department. | [optional] [default to null]
+**Company** | **string** | The user&#x27;s company. | [optional] [default to null]
+**Comment** | **string** | Free text related to the user. | [optional] [default to null]
+**GroupId** | **int32** | The ID of the Group in OneLogin that the user is assigned to. | [optional] [default to null]
+**RoleIds** | **[]int32** | A list of OneLogin Role IDs of the user | [optional] [default to null]
+**Phone** | **string** | The E.164 format phone number for a user. | [optional] [default to null]
+**State** | **int32** |  | [optional] [default to null]
+**Status** | **int32** |  | [optional] [default to null]
+**DirectoryId** | **int32** | The ID of the OneLogin Directory of the user. | [optional] [default to null]
+**TrustedIdpId** | **int32** | The ID of the OneLogin Trusted IDP of the user. | [optional] [default to null]
+**ManagerAdId** | **string** | The ID of the user&#x27;s manager in Active Directory. | [optional] [default to null]
+**ManagerUserId** | **string** | The OneLogin User ID for the user&#x27;s manager. | [optional] [default to null]
+**SamaccountName** | **string** | The user&#x27;s Active Directory username. | [optional] [default to null]
+**MemberOf** | **string** | The user&#x27;s directory membership. | [optional] [default to null]
+**Userprincipalname** | **string** | The principle name of the user. | [optional] [default to null]
+**DistinguishedName** | **string** | The distinguished name of the user. | [optional] [default to null]
+**ExternalId** | **string** | The ID of the user in an external directory. | [optional] [default to null]
+**ActivatedAt** | **string** |  | [optional] [default to null]
+**LastLogin** | **string** |  | [optional] [default to null]
+**InvitationSentAt** | **string** |  | [optional] [default to null]
+**UpdatedAt** | **string** |  | [optional] [default to null]
+**PreferredLocaleCode** | **string** |  | [optional] [default to null]
+**CreatedAt** | **string** |  | [optional] [default to null]
+**CustomAttributes** | [***interface{}**](interface{}.md) |  | [optional] [default to null]
+**InvalidLoginAttempts** | **int32** |  | [optional] [default to null]
+**LockedUntil** | **string** |  | [optional] [default to null]
+**PasswordChangedAt** | **string** |  | [optional] [default to null]
+**Password** | **string** | The password to set for a user. | [optional] [default to null]
+**PasswordConfirmation** | **string** | Required if the password is being set. | [optional] [default to null]
+**PasswordAlgorithm** | **string** | Use this when importing a password that&#x27;s already hashed. Prepend the salt value to the cleartext password value before SHA-256-encoding it | [optional] [default to null]
+**Salt** | **string** | The salt value used with the password_algorithm. | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
